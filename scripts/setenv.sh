@@ -1,0 +1,1 @@
+export HISTIGNORE='*sudo -S*'

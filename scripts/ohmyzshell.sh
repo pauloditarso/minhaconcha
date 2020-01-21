@@ -10,3 +10,6 @@ if ! [ -x "$(command -v curl)" ]; then
 else
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+sed -i.bkp 's/^ZSH_THEME="robbyrussell"/ZSH_THEME="gianu"/' ~/.zshrc
+source .zshrc
