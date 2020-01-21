@@ -14,4 +14,3 @@ else
 fi
 
 sed -i.bkp 's/^ZSH_THEME="robbyrussell"/ZSH_THEME="gianu"/' $homedir/.zshrc
-source $homedir/.zshrc
