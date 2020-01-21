@@ -1,7 +1,8 @@
 user=$1
 password=$2
+dir="/home/$user/minhaconha/scripts"
 
-echo "$password" | sudo -S bash sudoers.sh $user
+echo "$password" | sudo -S bash $dir/sudoers.sh $user
 
-bash apt.sh
-bash ohmyzshell.sh
+bash $dir/apt.sh
+bash $dir/ohmyzshell.sh
