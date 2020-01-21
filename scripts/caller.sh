@@ -1,6 +1,6 @@
 user=$1
 password=$2
-dir="/home/$user/minhaconha/scripts"
+dir="/home/$user/minhaconcha/scripts"
 
 echo "$password" | sudo -S bash $dir/sudoers.sh $user
 
